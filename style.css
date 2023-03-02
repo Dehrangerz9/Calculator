@@ -1,0 +1,36 @@
+.container {
+    border: 5px solid black;
+    border-radius: 5px;
+    padding: 1rem;
+    width: 15rem;
+    background-color: gray;
+}
+
+.visor {
+    border: 1px solid black;
+    width: 100%;
+    background-color: greenyellow;
+    color: green;
+    font-size: 30px;
+    resize: none;
+}
+
+.linha {
+    display: flex;
+    gap: 3px;
+    justify-content: flex-start;
+    margin-bottom: 5px;
+}
+
+.btn-calculadora {
+    padding: 10px;
+    border: 1px solid gray;
+    background-color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+
+
+#on {
+    background-color: darkred;
+    color: white;
+}

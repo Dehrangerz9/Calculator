@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="" class="container">
+        <div>
+            <textarea name="" id="visor" class="visor"></textarea>
+        </div>
+        <div class="linha">
+            <input type="button" class="btn-calculadora" id="on" value="ON/OFF">
+        </div>
+        <div class="linha">
+            <input type="button" class="btn-calculadora" value="CLEAR" onclick="visor.value =''">
+            <input type="button" class="btn-calculadora" value="RAIZ">
+            <input type="button" class="btn-calculadora" value="/">
+        </div>
+        <div class="linha">
+            <input type="button" class="btn-calculadora" value="7" onclick="visor.value +='7'">
+            <input type="button" class="btn-calculadora" value="8" onclick="visor.value +='8'">
+            <input type="button" class="btn-calculadora" value="9" onclick="visor.value +='9'">
+            <input type="button" class="btn-calculadora" value="*" onclick="visor.value +='*'">
+        </div>
+        <div class="linha">
+            <input type="button" class="btn-calculadora" value="4" onclick="visor.value +='4'">
+            <input type="button" class="btn-calculadora" value="5" onclick="visor.value +='5'">
+            <input type="button" class="btn-calculadora" value="6" onclick="visor.value +='6'">
+            <input type="button" class="btn-calculadora" value="-" onclick="visor.value +='-'">
+        </div>
+        <div class="linha">
+            <input type="button" class="btn-calculadora" value="1" onclick="visor.value +='1'">
+            <input type="button" class="btn-calculadora" value="2" onclick="visor.value +='2'">
+            <input type="button" class="btn-calculadora" value="3" onclick="visor.value +='3'">
+            <input type="button" class="btn-calculadora" value="+" onclick="visor.value +='+'">
+        </div>
+        <div class="linha">
+            <input type="button" class="btn-calculadora" value="0">
+            <input type="button" class="btn-calculadora" value=".">
+            <input type="button" class="btn-calculadora" value="=" onclick="eval(visor.value)">
+        </div>
+    </form>
+</body>
+</html>
